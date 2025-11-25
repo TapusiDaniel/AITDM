@@ -1,0 +1,19 @@
+{
+  "checkpoint": "final.pth",
+  "categories": [
+    "engine_wiring",
+    "pipe_clip",
+    "pipe_staple",
+    "tank_screw",
+    "underbody_pipes",
+    "underbody_screw"
+  ],
+  "auroc": 0.6155403695267021,
+  "dice_score": 0.037139050029295184,
+  "num_images": 2399,
+  "num_defects": 878,
+  "num_good": 1521,
+  "num_masks_evaluated": 878,
+  "mean_score_good": 0.003563019447028637,
+  "mean_score_defect": 0.004067050758749247
+}
