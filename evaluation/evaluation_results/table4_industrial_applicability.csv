@@ -1,0 +1,7 @@
+Category,Cent TPR@99%,Fed TPR@99%,Cent TPR@95%,Fed TPR@95%,Best Model
+engine_wiring,11.2%,1.2%,23.6%,6.5%,Centralized
+pipe_clip,0.0%,2.1%,3.5%,3.5%,Federated
+pipe_staple,0.0%,0.0%,3.4%,0.0%,Tie
+tank_screw,2.1%,2.1%,3.2%,4.2%,Tie
+underbody_pipes,0.0%,17.4%,0.0%,35.3%,Federated
+underbody_screw,83.3%,0.0%,83.3%,0.0%,Centralized

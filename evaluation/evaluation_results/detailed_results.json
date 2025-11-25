@@ -1,0 +1,173 @@
+{
+  "timestamp": "2025-11-25T11:55:40.708243",
+  "overall_metrics": {
+    "centralized": {
+      "AUROC": 0.6155347533917711,
+      "AP": 0.438385797820178,
+      "TPR@TNR99": 0.0,
+      "TPR@TNR95": 0.11617312072892938,
+      "TPR@TNR90": 0.19817767653758542,
+      "n_samples": 2399,
+      "n_anomalies": 878,
+      "n_normal": 1521
+    },
+    "federated": {
+      "AUROC": 0.6670283457562238,
+      "AP": 0.5266498014639054,
+      "TPR@TNR99": 0.03189066059225513,
+      "TPR@TNR95": 0.1264236902050114,
+      "TPR@TNR90": 0.2608200455580866,
+      "n_samples": 2399,
+      "n_anomalies": 878,
+      "n_normal": 1521
+    }
+  },
+  "per_category_metrics": {
+    "centralized": {
+      "engine_wiring": {
+        "AUROC": 0.6611419853982783,
+        "AP": 0.7115323391598913,
+        "TPR@TNR99": 0.11180124223602485,
+        "TPR@TNR95": 0.2360248447204969,
+        "TPR@TNR90": 0.2577639751552795,
+        "n_samples": 607,
+        "n_anomalies": 322,
+        "n_normal": 285
+      },
+      "pipe_clip": {
+        "AUROC": 0.46027446731672084,
+        "AP": 0.3916754678011729,
+        "TPR@TNR99": 0.0,
+        "TPR@TNR95": 0.035211267605633804,
+        "TPR@TNR90": 0.06338028169014084,
+        "n_samples": 337,
+        "n_anomalies": 142,
+        "n_normal": 195
+      },
+      "pipe_staple": {
+        "AUROC": 0.3025550100018185,
+        "AP": 0.3072971283631044,
+        "TPR@TNR99": 0.0,
+        "TPR@TNR95": 0.03418803418803419,
+        "TPR@TNR90": 0.05982905982905983,
+        "n_samples": 305,
+        "n_anomalies": 117,
+        "n_normal": 188
+      },
+      "tank_screw": {
+        "AUROC": 0.4550810989738497,
+        "AP": 0.21847115982640403,
+        "TPR@TNR99": 0.021052631578947368,
+        "TPR@TNR95": 0.031578947368421054,
+        "TPR@TNR90": 0.06315789473684211,
+        "n_samples": 413,
+        "n_anomalies": 95,
+        "n_normal": 318
+      },
+      "underbody_pipes": {
+        "AUROC": 0.5109033216311099,
+        "AP": 0.49470035505958565,
+        "TPR@TNR99": 0.0,
+        "TPR@TNR95": 0.0,
+        "TPR@TNR90": 0.0,
+        "n_samples": 345,
+        "n_anomalies": 184,
+        "n_normal": 161
+      },
+      "underbody_screw": {
+        "AUROC": 0.9346405228758171,
+        "AP": 0.8479382655504794,
+        "TPR@TNR99": 0.8333333333333334,
+        "TPR@TNR95": 0.8333333333333334,
+        "TPR@TNR90": 0.9444444444444444,
+        "n_samples": 392,
+        "n_anomalies": 18,
+        "n_normal": 374
+      }
+    },
+    "federated": {
+      "engine_wiring": {
+        "AUROC": 0.4510079546692819,
+        "AP": 0.5175129252282702,
+        "TPR@TNR99": 0.012422360248447204,
+        "TPR@TNR95": 0.06521739130434782,
+        "TPR@TNR90": 0.10869565217391304,
+        "n_samples": 607,
+        "n_anomalies": 322,
+        "n_normal": 285
+      },
+      "pipe_clip": {
+        "AUROC": 0.5520043336944745,
+        "AP": 0.46672295204432523,
+        "TPR@TNR99": 0.02112676056338028,
+        "TPR@TNR95": 0.035211267605633804,
+        "TPR@TNR90": 0.11267605633802817,
+        "n_samples": 337,
+        "n_anomalies": 142,
+        "n_normal": 195
+      },
+      "pipe_staple": {
+        "AUROC": 0.328877977814148,
+        "AP": 0.2855647263970197,
+        "TPR@TNR99": 0.0,
+        "TPR@TNR95": 0.0,
+        "TPR@TNR90": 0.0,
+        "n_samples": 305,
+        "n_anomalies": 117,
+        "n_normal": 188
+      },
+      "tank_screw": {
+        "AUROC": 0.43869579609400866,
+        "AP": 0.2160696661415662,
+        "TPR@TNR99": 0.021052631578947368,
+        "TPR@TNR95": 0.042105263157894736,
+        "TPR@TNR90": 0.07368421052631578,
+        "n_samples": 413,
+        "n_anomalies": 95,
+        "n_normal": 318
+      },
+      "underbody_pipes": {
+        "AUROC": 0.8601809343775318,
+        "AP": 0.8588696792131203,
+        "TPR@TNR99": 0.17391304347826086,
+        "TPR@TNR95": 0.3532608695652174,
+        "TPR@TNR90": 0.5380434782608695,
+        "n_samples": 345,
+        "n_anomalies": 184,
+        "n_normal": 161
+      },
+      "underbody_screw": {
+        "AUROC": 0.07783719548425432,
+        "AP": 0.025914064071173082,
+        "TPR@TNR99": 0.0,
+        "TPR@TNR95": 0.0,
+        "TPR@TNR90": 0.0,
+        "n_samples": 392,
+        "n_anomalies": 18,
+        "n_normal": 374
+      }
+    }
+  },
+  "optimal_thresholds": {
+    "centralized": {
+      "threshold": 0.0013417527079582214,
+      "f1": 0.5972602739726027
+    },
+    "federated": {
+      "threshold": 0.08455684036016464,
+      "f1": 0.5703839122486289
+    }
+  },
+  "tpr_at_tnr_summary": {
+    "centralized": {
+      "mean_tpr@tnr99": 16.103120119138428,
+      "mean_tpr@tnr95": 19.50560712026532,
+      "mean_tpr@tnr90": 23.142927597596113
+    },
+    "federated": {
+      "mean_tpr@tnr99": 3.8085799311505952,
+      "mean_tpr@tnr95": 8.26324652721823,
+      "mean_tpr@tnr90": 13.884989954985443
+    }
+  }
+}

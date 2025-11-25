@@ -1,0 +1,7 @@
+Category,AUROC Diff,t-statistic,p-value,Significance,Effect Size (d),Interpretation
+engine_wiring,+0.2101,-160.809,0.0000,***,-9.231,Large
+pipe_clip,-0.0917,-612.017,0.0000,***,-47.148,Large
+pipe_staple,-0.0263,-518.591,0.0000,***,-41.994,Large
+tank_screw,+0.0164,-671.785,0.0000,***,-46.749,Large
+underbody_pipes,-0.3493,-111.048,0.0000,***,-8.455,Large
+underbody_screw,+0.8568,-82.018,0.0000,***,-5.858,Large
